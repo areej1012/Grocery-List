@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C32B0197273BA0CD001A2849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B0196273BA0CD001A2849 /* AppDelegate.swift */; };
 		C32B0199273BA0CD001A2849 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B0198273BA0CD001A2849 /* SceneDelegate.swift */; };
-		C32B019B273BA0CD001A2849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B019A273BA0CD001A2849 /* ViewController.swift */; };
+		C32B019B273BA0CD001A2849 /* GroceryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B019A273BA0CD001A2849 /* GroceryList.swift */; };
 		C32B019E273BA0CD001A2849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32B019C273BA0CD001A2849 /* Main.storyboard */; };
 		C32B01A1273BA0CD001A2849 /* Grocery_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C32B019F273BA0CD001A2849 /* Grocery_List.xcdatamodeld */; };
 		C32B01A3273BA0CE001A2849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32B01A2273BA0CE001A2849 /* Assets.xcassets */; };
 		C32B01A6273BA0CE001A2849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32B01A4273BA0CE001A2849 /* LaunchScreen.storyboard */; };
 		C32B01B1273BA0CE001A2849 /* Grocery_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B01B0273BA0CE001A2849 /* Grocery_ListTests.swift */; };
 		C32B01BC273BA0CF001A2849 /* Grocery_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B01BB273BA0CF001A2849 /* Grocery_ListUITests.swift */; };
+		C32B01CD273BA5AC001A2849 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B01CC273BA5AC001A2849 /* Extension.swift */; };
+		C32B01D0273BB5C6001A2849 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B01CF273BB5C6001A2849 /* LoginViewController.swift */; };
+		C32B01D2273BB5DF001A2849 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B01D1273BB5DF001A2849 /* RegisterViewController.swift */; };
+		C32B01D5273BB642001A2849 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B01D4273BB642001A2849 /* UsersTableViewController.swift */; };
+		C32B01D7273BB690001A2849 /* GroceryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B01D6273BB690001A2849 /* GroceryListTableViewCell.swift */; };
+		C32B01D9273BB7AE001A2849 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C32B01D8273BB7AE001A2849 /* GoogleService-Info.plist */; };
+		C32B01DC273BB89E001A2849 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C32B01DB273BB89E001A2849 /* FirebaseAnalytics */; };
+		C32B01DE273BB89E001A2849 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C32B01DD273BB89E001A2849 /* FirebaseStorage */; };
+		C32B01E0273BB89E001A2849 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C32B01DF273BB89E001A2849 /* FirebaseAuth */; };
+		C32B01E2273BB89E001A2849 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C32B01E1273BB89E001A2849 /* FirebaseDatabase */; };
+		C32B01E4273BCCCE001A2849 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B01E3273BCCCE001A2849 /* ListModel.swift */; };
+		C32B01E6273BE7EC001A2849 /* DatabaseManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32B01E5273BE7EC001A2849 /* DatabaseManger.swift */; };
+		C32B01E9273D298F001A2849 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = C32B01E8273D298F001A2849 /* FacebookCore */; };
+		C32B01EB273D298F001A2849 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = C32B01EA273D298F001A2849 /* FacebookLogin */; };
+		C32B01EE273D3380001A2849 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C32B01ED273D3380001A2849 /* GoogleSignIn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +54,7 @@
 		C32B0193273BA0CD001A2849 /* Grocery List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32B0196273BA0CD001A2849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C32B0198273BA0CD001A2849 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C32B019A273BA0CD001A2849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C32B019A273BA0CD001A2849 /* GroceryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryList.swift; sourceTree = "<group>"; };
 		C32B019D273BA0CD001A2849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C32B01A0273BA0CD001A2849 /* Grocery_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grocery_List.xcdatamodel; sourceTree = "<group>"; };
 		C32B01A2273BA0CE001A2849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +66,14 @@
 		C32B01B7273BA0CF001A2849 /* Grocery ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grocery ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32B01BB273BA0CF001A2849 /* Grocery_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grocery_ListUITests.swift; sourceTree = "<group>"; };
 		C32B01BD273BA0CF001A2849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32B01CC273BA5AC001A2849 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C32B01CF273BB5C6001A2849 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C32B01D1273BB5DF001A2849 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C32B01D4273BB642001A2849 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		C32B01D6273BB690001A2849 /* GroceryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewCell.swift; sourceTree = "<group>"; };
+		C32B01D8273BB7AE001A2849 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C32B01E3273BCCCE001A2849 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		C32B01E5273BE7EC001A2849 /* DatabaseManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32B01DC273BB89E001A2849 /* FirebaseAnalytics in Frameworks */,
+				C32B01E9273D298F001A2849 /* FacebookCore in Frameworks */,
+				C32B01EB273D298F001A2849 /* FacebookLogin in Frameworks */,
+				C32B01E0273BB89E001A2849 /* FirebaseAuth in Frameworks */,
+				C32B01E2273BB89E001A2849 /* FirebaseDatabase in Frameworks */,
+				C32B01DE273BB89E001A2849 /* FirebaseStorage in Frameworks */,
+				C32B01EE273D3380001A2849 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,13 +131,12 @@
 		C32B0195273BA0CD001A2849 /* Grocery List */ = {
 			isa = PBXGroup;
 			children = (
-				C32B0196273BA0CD001A2849 /* AppDelegate.swift */,
-				C32B0198273BA0CD001A2849 /* SceneDelegate.swift */,
-				C32B019A273BA0CD001A2849 /* ViewController.swift */,
-				C32B019C273BA0CD001A2849 /* Main.storyboard */,
+				C32B01C9273BA4B1001A2849 /* Views */,
+				C32B01CB273BA537001A2849 /* Resources */,
+				C32B01CA273BA502001A2849 /* Controller */,
 				C32B01A2273BA0CE001A2849 /* Assets.xcassets */,
-				C32B01A4273BA0CE001A2849 /* LaunchScreen.storyboard */,
 				C32B01A7273BA0CE001A2849 /* Info.plist */,
+				C32B01D8273BB7AE001A2849 /* GoogleService-Info.plist */,
 				C32B019F273BA0CD001A2849 /* Grocery_List.xcdatamodeld */,
 			);
 			path = "Grocery List";
@@ -131,6 +160,55 @@
 			path = "Grocery ListUITests";
 			sourceTree = "<group>";
 		};
+		C32B01C9273BA4B1001A2849 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C32B01A4273BA0CE001A2849 /* LaunchScreen.storyboard */,
+				C32B019C273BA0CD001A2849 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C32B01CA273BA502001A2849 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C32B01D3273BB61C001A2849 /* List */,
+				C32B01CE273BB5A3001A2849 /* Authentication */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C32B01CB273BA537001A2849 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C32B0196273BA0CD001A2849 /* AppDelegate.swift */,
+				C32B0198273BA0CD001A2849 /* SceneDelegate.swift */,
+				C32B01CC273BA5AC001A2849 /* Extension.swift */,
+				C32B01E3273BCCCE001A2849 /* ListModel.swift */,
+				C32B01E5273BE7EC001A2849 /* DatabaseManger.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C32B01CE273BB5A3001A2849 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C32B01CF273BB5C6001A2849 /* LoginViewController.swift */,
+				C32B01D1273BB5DF001A2849 /* RegisterViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C32B01D3273BB61C001A2849 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				C32B019A273BA0CD001A2849 /* GroceryList.swift */,
+				C32B01D6273BB690001A2849 /* GroceryListTableViewCell.swift */,
+				C32B01D4273BB642001A2849 /* UsersTableViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +225,15 @@
 			dependencies = (
 			);
 			name = "Grocery List";
+			packageProductDependencies = (
+				C32B01DB273BB89E001A2849 /* FirebaseAnalytics */,
+				C32B01DD273BB89E001A2849 /* FirebaseStorage */,
+				C32B01DF273BB89E001A2849 /* FirebaseAuth */,
+				C32B01E1273BB89E001A2849 /* FirebaseDatabase */,
+				C32B01E8273D298F001A2849 /* FacebookCore */,
+				C32B01EA273D298F001A2849 /* FacebookLogin */,
+				C32B01ED273D3380001A2849 /* GoogleSignIn */,
+			);
 			productName = "Grocery List";
 			productReference = C32B0193273BA0CD001A2849 /* Grocery List.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +305,11 @@
 				Base,
 			);
 			mainGroup = C32B018A273BA0CD001A2849;
+			packageReferences = (
+				C32B01DA273BB89E001A2849 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C32B01E7273D298E001A2849 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				C32B01EC273D3380001A2849 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = C32B0194273BA0CD001A2849 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C32B01A6273BA0CE001A2849 /* LaunchScreen.storyboard in Resources */,
+				C32B01D9273BB7AE001A2849 /* GoogleService-Info.plist in Resources */,
 				C32B01A3273BA0CE001A2849 /* Assets.xcassets in Resources */,
 				C32B019E273BA0CD001A2849 /* Main.storyboard in Resources */,
 			);
@@ -261,10 +354,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32B019B273BA0CD001A2849 /* ViewController.swift in Sources */,
+				C32B01D0273BB5C6001A2849 /* LoginViewController.swift in Sources */,
+				C32B01CD273BA5AC001A2849 /* Extension.swift in Sources */,
+				C32B01D5273BB642001A2849 /* UsersTableViewController.swift in Sources */,
+				C32B01D2273BB5DF001A2849 /* RegisterViewController.swift in Sources */,
+				C32B019B273BA0CD001A2849 /* GroceryList.swift in Sources */,
 				C32B0197273BA0CD001A2849 /* AppDelegate.swift in Sources */,
+				C32B01E6273BE7EC001A2849 /* DatabaseManger.swift in Sources */,
 				C32B0199273BA0CD001A2849 /* SceneDelegate.swift in Sources */,
+				C32B01D7273BB690001A2849 /* GroceryListTableViewCell.swift in Sources */,
 				C32B01A1273BA0CD001A2849 /* Grocery_List.xcdatamodeld in Sources */,
+				C32B01E4273BCCCE001A2849 /* ListModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +697,71 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C32B01DA273BB89E001A2849 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.9.1;
+			};
+		};
+		C32B01E7273D298E001A2849 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.1;
+			};
+		};
+		C32B01EC273D3380001A2849 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C32B01DB273BB89E001A2849 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C32B01DA273BB89E001A2849 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C32B01DD273BB89E001A2849 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C32B01DA273BB89E001A2849 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C32B01DF273BB89E001A2849 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C32B01DA273BB89E001A2849 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C32B01E1273BB89E001A2849 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C32B01DA273BB89E001A2849 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C32B01E8273D298F001A2849 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C32B01E7273D298E001A2849 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		C32B01EA273D298F001A2849 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C32B01E7273D298E001A2849 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		C32B01ED273D3380001A2849 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C32B01EC273D3380001A2849 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C32B019F273BA0CD001A2849 /* Grocery_List.xcdatamodeld */ = {
