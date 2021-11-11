@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Login View Controller-->
+        <!--Grocery List-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Grocery_List" customModuleProvider="target" sceneMemberID="viewController">
@@ -121,7 +121,7 @@
                             <constraint firstItem="z9z-Og-BPV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nd8-YO-04i"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Lat-JC-PQO"/>
+                    <navigationItem key="navigationItem" title="Grocery List" id="Lat-JC-PQO"/>
                     <connections>
                         <outlet property="Email" destination="s71-DW-lPo" id="WCB-wp-OKu"/>
                         <outlet property="Password" destination="tIM-Ih-jbE" id="bFI-kt-1O2"/>

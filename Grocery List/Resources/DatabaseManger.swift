@@ -82,7 +82,7 @@ extension DatabaseManger{
         
         database.child("grocery-list-items/\(Nameitem)").observeSingleEvent(of: .value) {[weak self] snapShot in
             
-            if var arrayTasks = snapShot.value as? [String: Any]{
+            if let arrayTasks = snapShot.value as? [String: Any]{
                 if !arrayTasks.isEmpty{
                     self?.database.child("grocery-list-items/\(Nameitem)").setValue(arrayTasks){ error, reference in
                         if let error = error {
@@ -122,7 +122,7 @@ extension DatabaseManger{
             }
             
             var listofArray = [List]()
-            for (key ,value) in values{
+            for (_ ,value) in values{
                 guard let items = value as? [String:Any],
                       let name = items["name"] as? String,
                       let addedByUser = items["addedByUser"] as? String else {

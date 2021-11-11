@@ -8,6 +8,7 @@
 import UIKit
 import FirebaseAuth
 import FacebookLogin
+import GoogleSignIn
 class LoginViewController: UIViewController {
     @IBOutlet weak var Email: UITextField!
     
