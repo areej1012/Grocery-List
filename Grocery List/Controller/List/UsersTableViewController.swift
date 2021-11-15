@@ -67,7 +67,7 @@ class UsersTableViewController: UITableViewController {
         self.present(vc, animated: false, completion: nil)
     
     }
-    
+    /// make the user off online after sign out
     func offOnlineUser(uid:String?){
         guard let UID = uid else {
             return
