@@ -71,14 +71,6 @@ class GroceryList: UIViewController {
             }
         } )
         
-    /*    DatabaseManger.shared.CreateNewItem(Nameitem: item, emailUser: email, completion: {sucess in
-            if sucess{
-                print("save")
-            }
-            else{
-                print("feild")
-            }
-        })*/
    }
     func read(){
         print("here")
@@ -95,19 +87,7 @@ class GroceryList: UIViewController {
             }
             }
         })
-     /*  DatabaseManger.shared.getAllItems { result in
-         
-            switch result{
-            case .failure(let error):
-                print("error\(error.localizedDescription)")
-            case .success(let newList):
-                DispatchQueue.main.async {
-                    print("succe")
-                    self.list = newList
-                    self.tableview.reloadData()
-                }
-            }
-        }*/
+ 
     }
     
     
